@@ -17,6 +17,7 @@ use yii\helpers\Url;
                     </a>
                     <ul class="dropdown-menu animated fadeInRight m-t-xs">                        
                         <li><a href="<?= Url::toRoute(['site/profile']) ?>">个人资料</a></li>
+                        <li><a href="<?= Url::toRoute(['site/change-password']) ?>">修改密码</a></li>
                     </ul>
                 </div>
                 <div class="logo-element">
